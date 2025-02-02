@@ -1,0 +1,67 @@
+
+
+.inputItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1{
+    color: skyblue;
+}
+
+.item{
+    width: 120px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    /* outline: none; */
+    color:darkgreen;
+    border: 2px solid green;
+     
+}
+
+.logCard{
+    margin: auto;
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: whitesmoke ;
+}
+
+.warning {
+    width: 120px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 8px;
+    color: darkred;
+    border: 2px solid red;
+    
+}
+
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: whitesmoke ;
+    border-radius: 20px;
+    border: 1px solid green;
+    outline: none;
+    color: forestgreen;
+    transition: all 1s;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.war{
+    display: block;
+}
